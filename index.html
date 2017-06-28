@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Пример</title>
+	<style>
+		.menu{
+			background-color: green;
+			width: 100%;
+			height: 200px; 
+		}
+		.content{
+			background-color: blue;
+			width: 100%;
+			height: 500px;
+		}
+		.tool{
+			border: 1px solid black;
+			padding: 3px;
+			z-index: 10;
+			position: absolute;
+		}
+		.list{
+			list-style-type: none;
+			border: 1px solid black;
+			padding: 5px;
+			border-bottom: none;
+			background-color: #DDD3B6;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="menu" data-tooltip="Сдесь дожно быть меню">
+		<input type="text" id="enterValue" value=''></input>
+		<input  type="button" onclick='Submit()' value="Нажать"></input>
+	</div>
+	<div class="content" data-tooltip="Сдесь основной контект">
+		<div id="outputValues"></div>
+	</div>
+
+	
+	
+	
+	
+
+	<script src="script.js">
+		
+	</script>
+</body>
+</html>
